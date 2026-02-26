@@ -19,6 +19,6 @@ public abstract class Veiculo {
         return modelo;
     }
 
-    abstract double calcularCustoViagem(int distancia) ;
+    public abstract double calcularCustoViagem(int distancia) ;
 
 }

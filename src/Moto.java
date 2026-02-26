@@ -6,7 +6,7 @@ public class Moto extends Veiculo{
 
     @Override
     public double calcularCustoViagem(int distancia) {
-        double calculo = (distancia /30) * getValorCombustivel();
+        double calculo = (distancia / 30.0) * getValorCombustivel();
         return calculo;
     }
 }

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Main{
-    static void main() {
+    public static void main(String[] args) {
         ArrayList<Veiculo> veiculos = new ArrayList<>();
         Carro carro = new Carro("Sedan", 5.80);
         Caminhao caminhao = new Caminhao("Sacania", 6.20, 10);
